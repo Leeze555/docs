@@ -54,6 +54,10 @@ Volumes are mounted in the *Volumes* folder in the [application support director
 
 **Note:** Make sure to change the mount location back to default before using the App Store version of Mountain Duck otherwise you may experience permission issues.
 
+```{attention}
+Custom mount location is not honoured in _Integrated_ connect mode.
+```
+
 ### Cache Location
 
 `````{tabs}
