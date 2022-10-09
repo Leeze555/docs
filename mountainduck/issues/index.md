@@ -262,6 +262,9 @@ Extended attributes containing metadata about the files some applications write 
 **Quick Look**<br/>
 Preview for files only work downloaded files with _In Sync_ or _Up to Date_ [status](../connect/sync.md#status-of-files) in _Smart Synchronization_ or _Integrated_ connect mode.
 
+**Quick Look**<br/>
+Preview for files only work downloaded files with _In Sync_ or _Up to Date_ [status](../sync/index.md#status-of-files) in _Smart Synchronization_ or _Integrated_ connect mode.
+
 ````
 ````{group-tab} Windows
 
