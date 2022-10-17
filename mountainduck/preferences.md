@@ -55,7 +55,7 @@ Volumes are mounted in the *Volumes* folder in the [application support director
 **Note:** Make sure to change the mount location back to default before using the App Store version of Mountain Duck otherwise you may experience permission issues.
 
 ```{attention}
-Custom mount location is not honoured in _Integrated_ connect mode.
+Custom mount location is not honoured in _Integrated_ connect mode but always in `~/Library/CloudStorage`.
 ```
 
 ### Cache Location
@@ -66,7 +66,7 @@ Custom mount location is not honoured in _Integrated_ connect mode.
 Change the location where to store cache files required for offline access. By default the *Cache* folder is in the [application support directory](support.md). The disk must be formatted as HFS+ or APFS.
 
 ```{attention}
-Custom cache location is not honoured in _Integrated_ connect mode.
+Custom cache location is not honoured in _Integrated_ connect mode but always in `~/Library/CloudStorage`.
 ```
 ````
 
