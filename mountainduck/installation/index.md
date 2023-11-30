@@ -117,6 +117,16 @@ After upgrading a license, a new license file will be generated.
 3. Apply the new license file using double-click or copy the file into the application support folder.
 
 ### Windows Installation
+
+#### Optional Driver Installation
+Connecting using [_Online_](../connect/online.md) or [_Smart Synchronization_](../connect/sync.md) connect mode requires the installation of an additional file system driver in Windows. The following prompt is displayed when attempting to connect the first time.
+
+![CBFS Driver Installation](_images/CBFS_Driver_Installation.png)
+
+```{tip}
+The installation of the file system driver is not required for [_Integrated_](../connect/integrated.md) connect mode.
+```
+
 #### Error Code 0x24C 
 If you get the error code `0x24C` uninstall the client, reboot the system, and reinstall the client.
 
