@@ -9,19 +9,19 @@ sync
 online
 ```
 
-When connecting to a server, you can choose between *[Online](online.md)* and *[Smart Synchronization](sync.md)* connect
-mode.
+When connecting to a server, you can choose between *[Online](online.md)*, *[Smart Synchronization](sync.md)*, and *[Integrated](integrated.md)* connect
+mode:
 
-```{admonition} Integrated
-The [_Integrated_ connect mode](integrated.md) synchronizes files and folders from a directory on the local disk with support from macOS and Windows.
-```
+- The [_Integrated_ connect mode](integrated.md) synchronizes files and folders from a directory on the local disk with support from macOS and Windows.
 
-```{admonition} Online
-In [_Online_ connect mode](online.md), changes to a file are immediately uploaded and in sync when an application has finished saving a file.
-```
+- Using [_Online_ connect mode](online.md), changes to a file are immediately uploaded and in sync when an application has finished saving a file.
 
-```{admonition} Smart Synchronization
-In [_Smart Synchronization_ connect mode](sync.md), files are copied to a local cache for faster access prior synchronization with the server in the background.
+- In [_Smart Synchronization_ connect mode](sync.md), files are copied to a local cache for faster access prior synchronization with the server in the background.
+
+```{admonition} Changing Connect Mode
+
+Switching between [_Integrated_ mode](integrated.md) and [_Smart Synchronization_ mode](sync.md) ypu will be prompt whether or not you want to trash the previous cached files.
+
 ```
 
 ## Feature Comparison
