@@ -55,7 +55,7 @@ Volumes are mounted in the *Volumes* folder in the [application support director
 **Note:** Make sure to change the mount location back to default before using the App Store version of Mountain Duck otherwise you may experience permission issues.
 
 ```{attention}
-Custom mount location is not honoured in _Integrated_ connect mode but always in `~/Library/CloudStorage`. Changing the connect mode to _Integrated will cause applications to fail open recently opened documents because due to the change of the folder location not matching the previous volume.
+Custom mount location is not honoured in _Integrated_ connect mode but always in `~/Library/CloudStorage`. Changing the connect mode to _Integrated_ will cause applications to fail open recently opened documents because due to the change of the folder location not matching the previous volume.
 ```
 
 ### Cache Location
