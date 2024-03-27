@@ -1,7 +1,69 @@
 Preferences
 ====
 
+```{contents} Content
+:depth: 2
+:local:
+```
+ 
 In general, user adjustable preferences are discussed in the context of the topic in all wiki pages.
+
+## General
+
+### Save Workspace
+Save all mounted volumes when quitting to be restored while relaunching.
+
+### Bookmarks
+Change the size of the menu items in the status bar menu. Choose between *Small, Medium,* and *Large* icons.
+
+## [Browser](browser.md)
+
+
+
+## [Transfers](transfers.md)
+
+
+
+## Editor
+
+Select the text editor you want to use a as default application to open with if no other fitting application can be found.
+
+Deside if you want to alwas use the selected application to open files.
+
+## [Profiles](../protocols/profiles/index.md)
+
+Select connection profiles to be installed. Either scroll through the list or use the search function to look for a specific profile. The connection profiles will be installed after ticking the corresponding checkboxes. Installed protocols are displayed in the protocol dropdown menu in the bookmark window. To disable the connection profile simply untick the checkbox. 
+
+## Protocol specifics
+
+### FTP
+
+### S3
+
+### Google Storage
+
+## Bandwith
+
+Limit the maximum bandwidth that is allowed for transfers. Useful when you don't want transfers to take all the bandwidth available on your internet connection that would slow down other connections. 
+
+## [Connection](connection.md#connection)
+
+Manage general connection settings like the default protocol, timeouts, and proxy settings. 
+
+Choose wether or not you want to save your credentials using macOS Keychain or Windows Credential Manager
+
+Activate debug logging and reach the log file in case it is requested for troubleshooting purposes.
+
+## Cryptomator
+
+Choose whether or not your [Cryptomator vaults](../cryptomator/index.md) should be auto detected and unlocked while browsing the parent folder or not by using the *Auto detect and open vault in browser* option.
+
+```{note}
+Without saving the vaults passwords using keychain, you will receive passwords prompts for the vaults after reconnecting to the server or cloud storage.
+``` 
+
+### Use Keychain
+Specify if you want the *Save Password* option enabled by default while entering the password to unlock your vault. With the option disabled you have to check the checkbox to save the password in keychain manually. 
 
 ## Language
 
