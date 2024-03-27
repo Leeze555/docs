@@ -28,7 +28,7 @@ Manage transfer settings for uploads and downloads as well as the connection typ
 
 Select the text editor you want to use a as default application to open with if no other fitting application can be found.
 
-Deside if you want to alwas use the selected application to open files.
+Decide if you want to always use the selected application to open files.
 
 ## [Profiles](../protocols/profiles/index.md)
 
@@ -52,7 +52,7 @@ Set a default bucket region as well as the storage class, encryption, and ACL fo
 
 Specify the default bucket location, storage class, and ACLs for uploads or newly created files and buckets.
 
-## Bandwith
+## Bandwidth
 
 Limit the maximum bandwidth that is allowed for transfers. Useful when you don't want transfers to take all the bandwidth available on your internet connection that would slow down other connections. 
 
@@ -60,7 +60,7 @@ Limit the maximum bandwidth that is allowed for transfers. Useful when you don't
 
 Manage general connection settings like the default protocol, timeouts, and proxy settings. 
 
-Choose wether or not you want to save your credentials using macOS Keychain or Windows Credential Manager
+Choose whether or not you want to save your credentials using macOS Keychain or Windows Credential Manager
 
 Activate debug logging and reach the log file in case it is requested for troubleshooting purposes.
 
