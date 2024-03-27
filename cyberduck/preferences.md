@@ -18,11 +18,11 @@ Change the size of the menu items in the status bar menu. Choose between *Small,
 
 ## [Browser](browser.md)
 
-
+Choose a bookmark you want to connect upon startup and manage general settings for files and folders like shortcuts to open files or hidden file settings.
 
 ## [Transfers](transfers.md)
 
-
+Manage transfer settings for uploads and downloads as well as the connection typ to use.
 
 ## Editor
 
@@ -36,11 +36,21 @@ Select connection profiles to be installed. Either scroll through the list or us
 
 ## Protocol specifics
 
+Manage protocol specific settings.
+
 ### FTP
+
+Choose the text encoding you want to use to convert characters in filenames.
+
+The default setting is UTF-8.
 
 ### S3
 
+Set a default bucket region as well as the storage class, encryption, and ACL for uploads or newly created files and buckets.
+
 ### Google Storage
+
+Specify the default bucket location, storage class, and ACLs for uploads or newly created files and buckets.
 
 ## Bandwith
 
