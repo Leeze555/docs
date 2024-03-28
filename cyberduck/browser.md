@@ -240,6 +240,12 @@ Restore browser sessions that were left open when the application was last close
 
 Open new browser window after application launch.
 
+### Browser → General 
+
+Manage shortcuts:
+* Select if you want to open files in a external editor by double-clicking
+* Decide if you want to use the return key to select files or folder for rename 
+
 ### Browser → General → Show Hidden Files
 
 Display files in the browser that start with `.` and [previous revisions (S3)](../protocols/s3/index.md#versions). Use *View → Show Hidden Files* to toggle the mode of a current browser window.
