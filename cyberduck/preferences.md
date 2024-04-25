@@ -11,10 +11,10 @@ In general, user adjustable preferences are discussed in the context of the topi
 ## General
 
 ### Save Workspace
-Save all mounted volumes when quitting to be restored while relaunching.
+Save aktiv connections when quitting and restore them when reopening the application.
 
 ### Bookmarks
-Change the size of the menu items in the status bar menu. Choose between *Small, Medium,* and *Large* icons.
+Change the row height of bookmarks displayed in the browser window. Choose between *Small, Medium,* and *Large* icons.
 
 ## [Browser](browser.md)
 
