@@ -4,3 +4,4 @@ sphinx_rtd_theme
 
 # Pin docutils
 docutils~=0.18.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
